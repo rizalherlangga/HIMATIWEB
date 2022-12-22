@@ -4,7 +4,7 @@ const CardStruktur =(props) => {
     return(
         <div>
           <h3 className='text-center my-5'></h3>
-         <Card style={{ width: '18rem' }}>
+         <Card style={{ width: '16rem'}}>
            <Card.Img variant="top" src={props.image} />
            <Card.Body>
              <Card.Title>{props.jabatan}</Card.Title>
